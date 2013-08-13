@@ -1,24 +1,19 @@
-windowsupdate Cookbook
+chef-cookbook-windowsupdates Cookbook
 ======================
-TODO: Enter the cookbook description here.
-
-e.g.
-This cookbook makes your favorite breakfast sandwhich.
+Cookbook to schedule the download of Windows critical updates, and seperately install the downloaded Windows updates rebooting if necessary.
 
 Requirements
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
 
-e.g.
-#### packages
-- `toaster` - windowsupdate needs toaster to brown your bagel.
+#### Cookbooks
+- `Windows` - chef-cookbook-windowsupdates needs (an adjusted) Windows cookbook to function.
 
 Attributes
 ----------
 TODO: List you cookbook attributes here.
 
 e.g.
-#### windowsupdate::default
+#### chef-cookbook-windowsupdates::default
 <table>
   <tr>
     <th>Key</th>
@@ -36,17 +31,17 @@ e.g.
 
 Usage
 -----
-#### windowsupdate::default
+#### chef-cookbook-windowsupdates::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `windowsupdate` in your node's `run_list`:
+Just include `chef-cookbook-windowsupdates` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[windowsupdate]"
+    "recipe[chef-cookbook-windowsupdates]"
   ]
 }
 ```
@@ -65,4 +60,4 @@ e.g.
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Authors: Yvonne Beumer
