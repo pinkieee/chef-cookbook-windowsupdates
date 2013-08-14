@@ -1,4 +1,4 @@
-chef-cookbook-windowsupdates Cookbook
+chef-cookbook-windowsupdates
 ======================
 Cookbook to schedule the download of Windows critical updates, and seperately install the downloaded Windows updates rebooting if necessary.
 
